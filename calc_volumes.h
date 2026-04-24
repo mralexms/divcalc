@@ -1,0 +1,1 @@
+float calcVolumeCubo(float aresta);
