@@ -11,4 +11,6 @@ float calcAreaTriangulo(float base, float altura){
 float calcAreaRetangulo(float base, float altura){
     return base * altura;
 }
-
+float calcAreaTrianguloIsosceles(float base, float altura){
+	return (base * altura)/2.0; //Lauanna 
+}
