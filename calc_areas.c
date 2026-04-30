@@ -18,3 +18,8 @@ float calcAreaTrianguloIsosceles(float base, float altura){
 float calcAreaLosango(float diagonal_maior , float diagonal_menor){
     return (diagonal_maior * diagonal_menor)/2.0;
 }
+//esther
+float calcAreaTrapezio(float base_menor, float base_maior, float altura){
+	return (base_menor + base_maior) * altura / 2;
+}
+
