@@ -22,4 +22,6 @@ float calcAreaLosango(float diagonal_maior , float diagonal_menor){
 float calcAreaTrapezio(float base_menor, float base_maior, float altura){
 	return (base_menor + base_maior) * altura / 2;
 }
-
+//Vitor Hugo
+float calcAreaCirculo(float raio){
+	return 3,14 * (raio * raio); 
