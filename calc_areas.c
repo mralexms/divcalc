@@ -26,3 +26,7 @@ float calcAreaTrapezio(float base_menor, float base_maior, float altura){
 float calcAreaCirculo(float raio){
 	return 3.14 * (raio * raio); 
 }
+// Pedro Lucas
+float calcAreaEsfera(float raio){
+	return 4 * 3,14 * (raio * raio)
+}
