@@ -19,3 +19,6 @@ float CalcVolEsfera(float raio){
 float calcVolumeCone(float raio, float altura){
     return (3.14 * raio * raio * altura) / 3.0;
 }
+float calcVolumePrisma(float areaBase, float altura){
+    return areaBase * altura;
+}
