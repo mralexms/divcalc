@@ -4,7 +4,7 @@
 #include "calc_volumes.h"
 
 int main(void){
-    
+
     float b, h;
     float area;
 
