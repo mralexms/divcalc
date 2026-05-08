@@ -28,5 +28,5 @@ float calcAreaCirculo(float raio){
 }
 // Pedro Lucas
 float calcAreaEsfera(float raio){
-	return 4 * 3.14 * (raio * raio)
+	return 4 * 3.14 * (raio * raio);
 }
