@@ -11,5 +11,4 @@ calc_volumes.o: calc_volumes.c calc_volumes.h
 	$(CC) -c calc_volumes.c -o calc_volumes.o
 clean:
 	rm *.o divcalc
-
 .PHONY: clean
