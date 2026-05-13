@@ -21,4 +21,8 @@ float calcVolumeCone(float raio, float altura){
 }
 float calcVolumePrisma(float areaBase, float altura){
     return areaBase * altura;
-} 
+}
+//ulisses
+float calcVolumeParalelepipedoRetangulo(float altura, float largura, float profundidade){
+	return altura * largura * profundidade;
+}
