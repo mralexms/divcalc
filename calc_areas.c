@@ -30,3 +30,16 @@ float calcAreaCirculo(float raio){
 float calcAreaEsfera(float raio){
 	return 4 * 3.14 * (raio * raio);
 }
+//Duda
+float calcAreaBaseCone(float raio){
+    return 3.14*(raio*raio);
+}
+float calcGeratriz(float raio, float altura){
+    return sqrt((raio * raio) + (altura * altura));
+}
+float calcAreaLateralCone(float raio, float geratriz){
+    return 3.14 * raio * geratriz;
+}
+float calcAreaTotalCone(float areaBase, float areaLateral){
+    return areaBase + areaLateral;
+}
