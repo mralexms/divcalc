@@ -5,7 +5,7 @@ float calcAreaQuadrado(float lado){
 }
 
 float calcAreaTriangulo(float base, float altura){
-    return base * altura*0.5;
+    return base * altura * 0.5;
 }
 
 float calcAreaRetangulo(float base, float altura){
