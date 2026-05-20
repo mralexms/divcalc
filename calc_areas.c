@@ -1,4 +1,5 @@
 #include "calc_areas.h"
+#include <math.h>
 
 float calcAreaQuadrado(float lado){
         return lado * lado;
