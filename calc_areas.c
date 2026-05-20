@@ -43,3 +43,7 @@ float calcAreaLateralCone(float raio, float geratriz){
 float calcAreaTotalCone(float areaBase, float areaLateral){
     return areaBase + areaLateral;
 }
+//Thiago
+float calcAreaParalelograma(float Base, float altura){
+	return Base * altura;
+}

@@ -11,3 +11,4 @@ float calcAreaBaseCone(float raio);
 float calcGeratriz(float raio, float altura);
 float calcAreaLateralCone(float raio, float geratriz);
 float calcAreaTotalCone(float areaBase, float areaLateral);
+float calcAreaParalelograma(float Base, float altura);
