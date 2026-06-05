@@ -22,3 +22,7 @@ float calcVolumeCone(float raio, float altura){
 float calcVolumePrisma(float areaBase, float altura){
     return areaBase * altura;
 }
+// Cálculo do Tetraedro Regular (Arthur)
+float calcVolumeTetraedro(float aresta) {
+    return (pow(aresta, 3.0) * sqrt(2.0)) / 12.0;
+}
